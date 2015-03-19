@@ -5,6 +5,9 @@
   [
     // attribute-completions
     { "trigger": "cdata", "contents": "<![CDATA[${1}]]>" },
+    { "trigger": "count", "contents": "count=\"${1}\"" },
+    { "trigger": "format", "contents": "format=\"${1}\"" },
+    { "trigger": "level", "contents" : "level=\"${1:any, multiple or single}\""},
     { "trigger": "match", "contents" : "match=\"${1}\"" },
     { "trigger": "mode", "contents" : "mode=\"${1}\"" },
     { "trigger": "name", "contents" : "name=\"${1}\"" },
@@ -24,14 +27,17 @@
     { "trigger": "unparsed-entity-uri", "contents": "unparsed-entity-uri($0)" },
 
     // completions
+    "any",
     "ascending",
     "case-order",
     "data-type",
     "descending",
     "lang",
     "lower-first",
+    "multiple"
     "number",
     "order",
+    "single",
     "template",
     "transform",
     "upper-first"
