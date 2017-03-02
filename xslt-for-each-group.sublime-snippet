@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<xsl:for-each-group select="${1}">
+    ${0}
+</xsl:for-each-group>]]></content>
+  <tabTrigger>for</tabTrigger>
+  <scope>text.xml.xsl</scope>
+  <description>XSLT element for-each-group (attr: group-by, group-adjacent, group-starting-with, group-ending-with, collation)</description>
+</snippet>
