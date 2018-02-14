@@ -25,6 +25,7 @@
     { "trigger": "key", "contents": "key($1, $2)" },
     { "trigger": "system-property", "contents": "system-property($0)" },
     { "trigger": "unparsed-entity-uri", "contents": "unparsed-entity-uri($0)" },
+    { "trigger": "concat", "contents": "concat($0)" },    
 
     // completions
     "any",
@@ -40,6 +41,7 @@
     "single",
     "template",
     "transform",
-    "upper-first"
+    "upper-first",
+    "Stéphane"
   ]
 }
